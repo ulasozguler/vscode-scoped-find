@@ -1,0 +1,43 @@
+{
+  "name": "scoped-find",
+  "displayName": "Scoped Find",
+  "description": "A VS Code extension to quickly find something within the current scope your cursor is in.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "scoped-find.findInScope",
+        "title": "Find in Scope"
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "cmd+3",
+        "command": "scoped-find.findInScope",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8"
+  }
+}
