@@ -2,7 +2,7 @@
   "name": "scoped-find",
   "displayName": "Scoped Find",
   "description": "A VS Code extension to quickly find something within the current scope your cursor is in.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.85.0"
   },
