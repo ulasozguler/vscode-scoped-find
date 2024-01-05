@@ -1,6 +1,6 @@
-# Scoped Find VSCode Extension
+# Scoped Find
 
-Quickly find something within the current scope your cursor is in.
+A VS Code [extension](https://marketplace.visualstudio.com/items?itemName=ulasozguler.scoped-find) to quickly find something within the current scope your cursor is in.
 
 Officially only supports Python but should work with any other well-formatted code.
 
